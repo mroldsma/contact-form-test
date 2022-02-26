@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #001660;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+form button{
+    padding: 15px;
+    background: #ff5361;
+    color: white;
+    font-size: 25px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 20px auto 0;
+    border-radius: 5px;
+}
